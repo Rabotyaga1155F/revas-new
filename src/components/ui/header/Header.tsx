@@ -81,14 +81,17 @@ const Header = () => {
           <a href="#advantages" onClick={() => setMenuOpen(false)}>
             Преимущества
           </a>
+          <a href="#questionnaire" onClick={() => setMenuOpen(false)}>
+            Анкета
+          </a>
           <a href="#steps" onClick={() => setMenuOpen(false)}>
             Этапы
           </a>
           <a href="#faq" onClick={() => setMenuOpen(false)}>
             FAQ
           </a>
-          <a href="#contacts" onClick={() => setMenuOpen(false)}>
-            Контакты
+          <a href="#office" onClick={() => setMenuOpen(false)}>
+            Наш офис
           </a>
         </div>
 

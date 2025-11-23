@@ -27,14 +27,18 @@ const Header = () => {
           <a href="#advantages" className="text-gray-700 hover:text-orange-500 transition">
             Преимущества
           </a>
+          <a href="#questionnaire" className="text-gray-700 hover:text-orange-500 transition">
+            Анкета
+          </a>
           <a href="#steps" className="text-gray-700 hover:text-orange-500 transition">
             Этапы
           </a>
+
           <a href="#faq" className="text-gray-700 hover:text-orange-500 transition">
             FAQ
           </a>
-          <a href="#contacts" className="text-gray-700 hover:text-orange-500 transition">
-            Контакты
+          <a href="#office" className="text-gray-700 hover:text-orange-500 transition">
+            Наш офис
           </a>
         </nav>
 

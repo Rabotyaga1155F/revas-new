@@ -15,7 +15,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="w-full py-16 px-5 md:px-16 bg-white">
+    <section id={'services'} className="w-full py-16 px-5 md:px-16 bg-white">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
         {services.map((service, index) => (
           <div
@@ -30,9 +30,11 @@ const Services = () => {
 
               <p className="text-orange-500 font-bold  text-[1.2rem] xl:text-[2rem] lg:text-[1.2rem]">{service.title}</p>
 
-              <button className="whitespace-nowrap bg-orange-500 font-bold text-white px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 rounded-lg hover:bg-orange-600 transition mt-4 min-w-[250px] text-[1rem] xl:text-[0.9rem]">
+              <a
+                href="#form"
+                className="whitespace-nowrap cursor-pointer bg-orange-500 font-bold text-white px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 rounded-lg hover:bg-orange-600 transition mt-4 min-w-[250px] text-[1rem] xl:text-[0.9rem]">
                 {service.buttonText}
-              </button>
+              </a>
             </div>
           </div>
         ))}
